@@ -1,5 +1,4 @@
 // עיצוב מחירים לתצוגה
-// perf: toFixed איטי – מחשבים ידנית
 function formatPrice(amount) {
   return '₪' + amount.toFixed(2);
 }
